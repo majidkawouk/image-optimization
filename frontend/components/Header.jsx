@@ -9,7 +9,7 @@ export default function Header() {
         <Sparkles className="text-cyan-400 w-8 h-8" />
         <span className="text-2xl font-bold ml-2">Image Optimization</span>
       </div>
-      <button className="bg-[#06B6D4] font-semibold  text-white px-4 py-2 rounded-lg">Get started</button>
+      <button className="bg-[#06B6D4] font-semibold  text-white px-4 cursor-pointer py-2 rounded-lg">Get started</button>
     </div>
   );
 }
