@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 export default function LastSection() {
   return (
     <div className=" flex  items-center flex-col justify-center w-full py-10 mt-20 min-h-[300px] space-y-2">
@@ -11,9 +11,9 @@ export default function LastSection() {
         Give our tool a try and see the difference it makes. No registration
         required for single image optimization.
       </h2>
-      <button className="bg-cyan-500 font-semibold  text-white px-4 py-2 hover:cursor-pointer rounded-lg mt-6">
+      <Link className="bg-cyan-500 font-semibold  text-white px-4 py-2 hover:cursor-pointer rounded-lg mt-6" href="/editor">
         Start Optimizing Now
-      </button>
+      </Link>
     </div>
   );
 }

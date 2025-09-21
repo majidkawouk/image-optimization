@@ -1,25 +1,24 @@
 "use client";
 
 import { FileUpIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <div className="text-center">
-      <h1 className="text-5xl font-bold mb-4">
+      <h1 className="text-5xl font-bold mb-4 mt-20">
         Optimize Your Images Effortlessly
       </h1>
       <p className="text-xl font-semibold text-gray-400 dark:text-gray-400 mb-6">
-        Drag, drop, and watch your images shrink without losing quality.
+        Start by dragging, dropping, and watching your images shrink without losing quality.
       </p>
-
-      <div className="border-2 border-dashed flex flex-col gap-4 bg-gray-100 border-gray-300 dark:border-gray-300 rounded-lg p-10 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-200 transition w-[40%] mx-auto min-h-60">
-        <FileUpIcon className="mx-auto mb-2 w-14 h-14 text-gray-500" />
-        <div className="text-gray-500 text-lg font-bold">Drag & drop your images here</div> <span className="text-cyan-400">or</span>
-        <button className="bg-cyan-500 font-semibold ml-2 w-fit self-center text-white px-4 py-2 rounded-lg">
-          browse files
-        </button>
-        <input type="file" className="hidden" />
+      <div className="inline-flex items-center gap-2 bg-cyan-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 cursor-pointer">
+        <FileUpIcon className="w-5 h-5" />
+        <Link className="font-medium" href="/editor">
+          Optimize
+        </Link>
       </div>
+      
     </div>
   );
 }
