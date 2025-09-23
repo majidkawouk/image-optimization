@@ -293,7 +293,7 @@ export default function Editor() {
                   placeholder="e.g., 768"
                   value={height}
                   onChange={(e) => setHeight(e.target.value)}
-                  className="form-input mt-1 block w-full rounded-md border-0 py-2 pl-3 pr-3 text-slate-900 ring-1 ring-inset ring-slate-300 focus:ring-2 focus:ring-cyan-500 sm:text-sm sm:leading-6 transition"
+                  className="form-input mt-1 block w-full rounded-md border-0 py-1 pl-3 pr-3 text-slate-900 ring-1 ring-inset ring-slate-300 focus:ring-2 focus:ring-cyan-500 sm:text-sm sm:leading-6 transition"
                 />
               </div>
             </div>
