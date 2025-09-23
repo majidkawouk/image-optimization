@@ -27,7 +27,7 @@ A simple and efficient web application to **upload, optimize, and download image
 - **Frontend**: React with Next.js (App Router, Client Components)  
 - **Backend**: Next.js API routes (Serverless functions)  
 - **Image Optimization**: Cloudinary API  
-- **Styling**: Plain CSS (no Tailwind or additional frameworks)
+- **Styling**:  Tailwind 
 
 ---
 
