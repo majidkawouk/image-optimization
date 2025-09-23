@@ -35,6 +35,7 @@ export default function Editor() {
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
+      setMb((file.size / 1024 / 1024).toFixed(2));
       setSelectedImage(file);
       setOptimizedUrl(null);
     }
