@@ -13,7 +13,6 @@ A simple and efficient web application to **upload, optimize, and download image
   - Resize (Width & Height)
   - Crop mode (Fill, Fit, Scale, Thumbnail)
   - Advanced options:
-    - Auto-crop
     - Device Pixel Ratio (DPR)
     - Chroma Subsampling
 - Copy optimized image URL to clipboard.
