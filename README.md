@@ -28,6 +28,6 @@ A simple and efficient web application to **upload, optimize, and download image
 - **Image Optimization**: Cloudinary API  
 - **Styling**:  Tailwind 
 
----
+
 
 
